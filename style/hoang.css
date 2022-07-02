@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+#navigation {
+    width: 100vw;
+    height: fit-content;
+    padding: 20px;
+    border: 2px solid;
+}
+a{
+    text-decoration: none;
+
+}
+ul,
+li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+
+    color: blue;
+    background-color: black;
+    box-shadow: 0 0 5px rgba(red, green, blue, alpha) ;
+}
+
+
+
+#container{
+    display: flex;
+    flex-direction:  ;
+}
+#container > img{
+    height: fit-content;
+}
+#content {
+    display: flex;
+}
